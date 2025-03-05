@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Dark background color for the page */
+    color: #fff;
+    line-height: 1.6;
+   
+  }
+
+  
+  /* Header Styles */
+  .navbar {
+    background-color: #1e1e1e !important; /* Dark header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   
+  }
+  
+  .navbar .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00bcd4 !important; /* Neon blue */
+    letter-spacing: 2px;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #00bcd4 !important; /* Neon blue on hover */
+  }
+  
+  .navbar .navbar-nav .nav-link:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar .navbar-toggler {
+    border-color: #00bcd4; /* Neon blue */
+  }
+  
+  .navbar .navbar-toggler-icon {
+    background-color: #00bcd4; /* Neon blue */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/path-to-your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+    background-image: url('./assets/background.jpg');
+   
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #faf5f5; 
+    margin-bottom: 30px;
+  }
+  
+  .hero-section button {
+    font-size: 1.2rem;
+    background-color: #00bcd4; /* Neon blue */
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-section button:hover {
+    background-color: #0288d1; /* Darker blue on hover */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #1e1e1e; /* Dark background for footer */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #aaa; /* Lighter gray text */
+    margin-bottom: 10px;
+  }
+  
+  footer .social-icon {
+    margin: 0 15px;
+  }
+  
+  footer .social-icon:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  footer .social-icon:focus {
+    outline: none;
+  }
+  
+  /* Section Background Colors (for services, portfolio, etc.) */
+  section {
+    padding: 60px 0;
+  }
+  
+  #services, #portfolio, #contact {
+    background-color: #1c1c1c; /* Dark background for sections */
+    border-top: 5px solid #00bcd4; /* Neon blue accent */
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  
+    .hero-section button {
+      padding: 10px 30px;
+    }
+  }
+  
