@@ -11,7 +11,7 @@
   
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #121212; /* Dark background color for the page */
+    background-color: #121212; 
     color: #fff;
     line-height: 1.6;
    
@@ -20,8 +20,10 @@
   
   /* Header Styles */
   .navbar {
-    background-color: #1e1e1e !important; /* Dark header */
+    background-color: #1e1e1e !important; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   
+
    
   }
   
@@ -29,7 +31,7 @@
     font-family: 'Orbitron', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    color: #00bcd4 !important; /* Neon blue */
+    color: #00bcd4 !important; 
     letter-spacing: 2px;
   }
   
@@ -42,7 +44,7 @@
   }
   
   .navbar .navbar-nav .nav-link:hover {
-    color: #00bcd4 !important; /* Neon blue on hover */
+    color: #00bcd4 !important; 
   }
   
   .navbar .navbar-nav .nav-link:focus {
@@ -51,11 +53,11 @@
   }
   
   .navbar .navbar-toggler {
-    border-color: #00bcd4; /* Neon blue */
+    border-color: #00bcd4; 
   }
   
   .navbar .navbar-toggler-icon {
-    background-color: #00bcd4; /* Neon blue */
+    background-color: #00bcd4; 
   }
   
   /* Hero Section */
@@ -94,7 +96,7 @@
   
   .hero-section button {
     font-size: 1.2rem;
-    background-color: #00bcd4; /* Neon blue */
+    background-color: #00bcd4; 
     border: none;
     padding: 15px 40px;
     border-radius: 50px;
@@ -103,7 +105,7 @@
   }
   
   .hero-section button:hover {
-    background-color: #0288d1; /* Darker blue on hover */
+    background-color: #0288d1; 
   }
   
   @keyframes fadeIn {
@@ -117,14 +119,14 @@
   
   /* Footer Section */
   footer {
-    background-color: #1e1e1e; /* Dark background for footer */
+    background-color: #1e1e1e; 
     padding: 40px 0;
     text-align: center;
   }
   
   footer p {
     font-size: 1rem;
-    color: #aaa; /* Lighter gray text */
+    color: #aaa; 
     margin-bottom: 10px;
   }
   
@@ -142,14 +144,13 @@
     outline: none;
   }
   
-  /* Section Background Colors (for services, portfolio, etc.) */
   section {
     padding: 60px 0;
   }
   
   #services, #portfolio, #contact {
-    background-color: #1c1c1c; /* Dark background for sections */
-    border-top: 5px solid #00bcd4; /* Neon blue accent */
+    background-color: #1c1c1c; 
+    border-top: 5px solid #00bcd4; 
   }
   
   /* Media Queries */

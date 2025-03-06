@@ -9,14 +9,15 @@ function Hero() {
           <DecryptedText
             text="Welcome to Quantum Core "
             animateOn="view"
-            revealDirection="center"
+            revealDirection="start"
           />
         </h1>
 
         <p> <DecryptedText
             text="Building the Future with Cutting-Edge Technology "
             animateOn="view"
-            revealDirection="center"
+            revealDirection="start"
+            speed={95}
           />
          </p>
       

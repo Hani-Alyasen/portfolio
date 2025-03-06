@@ -36,16 +36,16 @@ const styles = {
  */
 export default function DecryptedText({
   text, 
-  speed = 400,
-  maxIterations = 15,
-  sequential = false,
-  revealDirection = 'start',
+  speed = 200,
+  maxIterations = 1,
+  sequential = true,
+  revealDirection =  'start',
   useOriginalCharsOnly = false,
-  characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+',
+  characters = '123456789wyexdrcf',
   className = '',
   parentClassName = '',
   encryptedClassName = '',
-  animateOn = 'hover',
+  animateOn = 'view',
   ...props
 }) {
   const [displayText, setDisplayText] = useState(text)
