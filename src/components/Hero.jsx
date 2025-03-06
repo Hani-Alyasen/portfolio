@@ -13,8 +13,13 @@ function Hero() {
           />
         </h1>
 
-        <p>Building the Future with Cutting-Edge Technology</p>
-        <button>Learn More</button>
+        <p> <DecryptedText
+            text="Building the Future with Cutting-Edge Technology "
+            animateOn="view"
+            revealDirection="center"
+          />
+         </p>
+      
       </div>
     </section>
   );
