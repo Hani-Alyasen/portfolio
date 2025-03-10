@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary " fixed="top">
       <div className="container-fluid d-flex justify-content-between align-items-center ">
         <Navbar.Brand href="#home" className="text-info">
           Quantum Core
